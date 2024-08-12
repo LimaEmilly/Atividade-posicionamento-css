@@ -1,0 +1,43 @@
+.container {
+    width: 100vh;
+    height: 100vh;
+    margin: auto;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+}
+#quadrado1 {
+    background-color: blue;
+    width: 98vh;
+    height: 98vh;
+    z-index: 1;
+    position: absolute;
+}
+#quadrado2 {
+    background-color:red;
+    width: 78vh;
+    height: 78vh;
+    z-index: 2;
+    position: absolute;
+}
+#quadrado3 {
+    background-color:black;
+    width: 58vh;
+    height: 58vh;
+    z-index: 3;
+    position: absolute;
+}
+#quadrado4 {
+    background-color:green;
+    width: 38vh;
+    height: 38vh;
+    z-index: 4;
+    position: absolute;
+}
+#quadrado5 {
+    background-color: yellow;
+    width: 18vh;
+    height: 18vh;
+    z-index: 5;
+    position: absolute;
+}

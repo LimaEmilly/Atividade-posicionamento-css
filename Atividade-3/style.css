@@ -1,0 +1,33 @@
+   * {
+    margin: 0;
+    padding: 0;
+   }
+   .container{
+    background-color: gray;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+   }
+   .quadrado {
+    background-color: black;
+    color: white;
+    width: auto;
+    height: auto;
+    margin: 20px
+
+   }
+   #texto1 {
+    text-transform: uppercase;
+    border-radius: 25px;
+    text-align: center;
+    padding: 20px;
+
+   }
+   #texto2{
+    text-transform: lowercase;
+    border: 3px solid red;
+    padding: 20px;
+    overflow: scroll;
+   }

@@ -1,0 +1,36 @@
+* {
+  margin: 0;
+  padding: 0;
+  height: 50vh;
+  background-color: gray;
+}
+.container1,
+.container2 {
+  height: 100%;
+  gap: 5px;
+  display: grid;
+  grid-template-columns: repeat(3, auto);
+}
+.row1,
+.row2 {
+    gap: 5px;
+    display: flex;
+}
+.quadrado {
+  width: 100px;
+  height: 100px;
+  background-color: black;
+  border: 5px solid gray;
+}
+.container1 {
+  justify-content: left;
+}
+.row1 {
+  flex-direction: column;
+}
+.container2 {
+  justify-content: right;
+}
+.row2 {
+  flex-direction: column-reverse;
+}

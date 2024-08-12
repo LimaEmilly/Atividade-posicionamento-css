@@ -1,0 +1,26 @@
+* {
+  margin: 0;
+  padding: 0;
+  height: 100vh;
+}
+.container {
+  background-color: gray;
+  display: flex;
+  height: 100vh;
+}
+.quadrado {
+  width: 20vh;
+  height: 20vh;
+  position: absolute;
+  background-color: black;
+}
+#quadrado2 {
+  right: 0;
+}
+#quadrado3 {
+  bottom: 0;
+}
+#quadrado4 {
+  right: 0;
+  bottom: 0;
+}
